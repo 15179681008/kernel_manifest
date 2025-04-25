@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       CPU:
-        description: "Pixel 8"
+        description: "分支"
         required: true
         default: 'sm8650'
       FEIL:
@@ -15,7 +15,7 @@ on:
         required: true
         default: 'pineapple'
       ANDROID_VERSION:
-        description: "android12"
+        description: "内核安卓版本"
         required: true
         default: 'android14'
       KERNEL_VERSION:
